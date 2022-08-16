@@ -1,11 +1,30 @@
 @font-face {
 	font-family: 'EBENYA'; 
-	src: url(/font/EBENYA.ttf); 
+	src: url(font/EBENYA.ttf); 
 }
 
 body{
     background-color: black;
     color: white;
+    /*
+    * Для эксплорера
+    */
+   -ms-user-select: none;
+
+   /**
+    * Для мозилы
+    */
+   -moz-user-select: none;
+
+   /**
+    * Для конкверора
+    */
+   -khtml-user-select: none;
+
+   /**
+    * Для Сафари и Хрома
+    */
+   -webkit-user-select: none;
 }
 
 .wrapper{
