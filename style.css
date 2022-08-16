@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'EBENYA'; 
+	src: url(/font/EBENYA.ttf); 
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.wrapper{
+    height: 98vh;
+    width: 100%;
+    position: relative
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'EBENYA';
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
