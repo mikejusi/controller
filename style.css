@@ -30,7 +30,8 @@ body{
 .wrapper{
     height: 98vh;
     width: 100%;
-    position: relative
+    display: flex;
+    align-items: center;
 }
 
 h1{
@@ -39,9 +40,21 @@ h1{
     letter-spacing: 16px;
     text-transform: uppercase;
     line-height: 20px;
+    margin: 0 auto;
+}
+
+.line{
     position: absolute;
     top: 45%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+i{
+    background-color: white;
+    color: black!important;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
 }
