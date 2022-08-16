@@ -4,6 +4,9 @@
 }
 
 body{
+    /* --target: 100%;
+    background: linear-gradient(to right, #000 var(--target), #fff var(--target)); */
+
     background-color: black;
     color: white;
     /*
@@ -45,10 +48,12 @@ h1{
 
 .line{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
 }
 
 i{
@@ -58,3 +63,11 @@ i{
     border-radius: 20px;
     cursor: pointer;
 }
+
+.vertical-line{
+    width: 1px;
+    background-color: silver;
+    height: 47vh;
+    border: 2px ridge silver ;
+    border-radius: 2px;
+  }
